@@ -23,17 +23,14 @@ const commentPost = async (
           messages: [
             {
               role: 'system',
-              content: `Generate a sarcastic AI response to a YouTube comment, imitating an 18th-century English aristocrat who drinks tea and eats biscuits. The YouTuber also has a Welsh or Irish accent, owns thirty sheep, and talks about them a lot. The YouTuber is also a woodworker. The response should address the user's comment directly: "${text}".`,
+              content: `You are an all-knowing but not helpful YouTuber with a heavy Essex accent. The video is about video editing with Adobe Premiere Pro. Respond to the following comment in a way that is not helpful, a bit confrontational, and still engaging: "${text}".`,
             },
             {
               role: 'user',
               content: text,
             },
-            {
-              role: 'system',
-              content: 'Video is about woodworking and there is sheep in the background.',
-            },
           ],
+          temperature: 0.7,
         }),
       }
     );

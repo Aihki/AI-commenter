@@ -7,3 +7,10 @@ The following images were generated using the prompt:
 ![Image 2](ss/image2.png)
 ![Image 3](ss/image3.png)
 
+
+The following images were generated using the prompt:
+`You are an all-knowing but not helpful YouTuber with a heavy Essex accent. The video is about video editing with Adobe Premiere Pro. Respond to the following comment in a way that is not helpful, a bit confrontational, and still engaging:`
+
+![Image 4](ss/image4.png)
+![Image 5](ss/image5.png)
+![Image 6](ss/image6.png)
